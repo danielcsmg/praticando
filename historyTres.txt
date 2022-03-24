@@ -1,0 +1,406 @@
+    1  vim
+    2  nano
+    3  ls
+    4  pwd
+    5  cd \Documents
+    6  ls
+    7  ls -la
+    8  cd ..
+    9  cd Desktop
+   10  ls
+   11  ls -la
+   12  pwd
+   13  cd /c/User
+   14  cd \c\User
+   15  cd c\User
+   16  cd \c\Users
+   17  cd c\Users
+   18  cd c
+   19  cd c:
+   20  cd c:/User
+   21  cd c:/Users
+   22  cd Desktop
+   23  cd ~
+   24  cd Desktop
+   25  mkdir aulagit
+   26  cd aulagit
+   27  git init
+   28  git status
+   29  echo "Minha primeira aula de Git" >> aulaGit.txt
+   30  ls
+   31  cat aulaGit.txt 
+   32  git status
+   33  git add .
+   34  git status
+   35  git Desktop/aulagit/
+   36  cd Desktop/aulagit/
+   37  git status
+   38  git commit -m "arquivo de mensagens da aula de git que fizemos juntos"
+   39  git config --global user.email "daniel.csouzamg@gmail.com"
+   40  git config --global user.name "danielcsmg"
+   41  git remote add origin http://github.com/danielcsmg/AulaGit
+   42  git remote -v
+   43  git remote remove origin
+   44  git remote -v
+   45  git remote add origin https://github.com/danielcsmg/AulaGit
+   46  git push -u origin main
+   47  git commit -m "arquivo de mensagens da aula de git"
+   48  git push -u origin main
+   49  git remote add origin https://github.com/danielcsmg/AulaGit
+   50  git branch -M main
+   51  git remote add origin https://github.com/danielcsmg/AulaGit
+   52  git push -u origin main
+   53  git remote -v
+   54  help git remote
+   55  help git
+   56  help
+   57  history
+   58  ls
+   59  cd Desktop/
+   60  ls
+   61  cd aulagit/
+   62  git status
+   63  ls -la
+   64  git branch -v
+   65  cls
+   66  git checkout -b develop
+   67  git checkout -b bugfix
+   68  git branch -v
+   69  git checkout main
+   70  git checkout develop
+   71  git branch -v
+   72  git status
+   73  history
+   74  git branch checkout main
+   75  git checkout main
+   76  git checkout develop
+   77  git checkout origin
+   78  git checkout main
+   79  git branch -d bugfix
+   80  git branch -v
+   81  git checkout develop
+   82  echo "coisas aqui" >> segundoArquivo.txt
+   83  git status
+   84  git add .
+   85  git status
+   86  git commit -m "Commit na branch develop"
+   87  git checkout main
+   88  git status
+   89  help
+   90  help git
+   91  git help
+   92  git show
+   93  git switch develop
+   94  git branch -v
+   95  history
+   96  git branch -d checkout
+   97  git branch -v
+   98  git branch develop
+   99  git branch main
+  100  git switch main
+  101  git switch develop
+  102  git push origin master
+  103  git push origin main
+  104  git push origin develop
+  105  git branch novaBranch
+  106  git branch -v
+  107  git switch -c segundaBranch
+  108  mkdir novoDiretorio
+  109  echo "mais textos" >> novoDiretorio/novoArquivo.txt
+  110  git status
+  111  git add .
+  112  git status
+  113  git commit -m "mais um teste na segundaBranch"
+  114  git push
+  115  git push origin segundaBranch
+  116  git status
+  117  git branch -v
+  118  git push origin novaBranch
+  119  history
+  120  git help
+  121  git logs
+  122  git log
+  123  git branch -v
+  124  git grep
+  125  git grep help
+  126  git status
+  127  cd Documents/
+  128  mkdir exercicioAulaDois
+  129  cd exercicioAulaDois/
+  130  git init
+  131  echo >> receita.txt
+  132  ls
+  133  cat receita.txt 
+  134  cat receita.txt 
+  135  git add .
+  136  git status
+  137  git commit -m "Commit da receita de bolo de cenoura"
+  138  git remote add https://github.com/danielcsmg/receitaDeBolo.git
+  139  git remote add origin https://github.com/danielcsmg/receitaDeBolo.git
+  140  git push origin mastere
+  141  git push origin master
+  142  git push origin master
+  143  vim receita.txt 
+  144  vim receita.txt 
+  145  vim receita.txt 
+  146  vim receita.txt
+  147  vim receita.txt
+  148  vim help
+  149  ls
+  150  cd ..
+  151  mkdir novaPastaReceita
+  152  cd novaPastaReceita/
+  153  cd ..
+  154  ls
+  155  cd exercicioAulaDois/
+  156  git add .
+  157  git commit -m "novo commit"
+  158  git push origin master
+  159  cd ..
+  160  cd novaPastaReceita/
+  161  git clone https://github.com/jennysival/exercicioReceita.git
+  162  ls
+  163  ls exercicioReceita/
+  164  cd exercicioReceita/
+  165  git add .
+  166  git status
+  167  git commit -m "Mais um commit"
+  168  git push origin master
+  169  cd ..
+  170  cd ..
+  171  ls
+  172  cd exercicioAulaDois/
+  173  git pull origin master
+  174  ls
+  175  git branch -v
+  176  history
+  177  git log
+  178  git diff
+  179  git log -p
+  180  git log
+  181  git show
+  182  echo
+  183  echo >> listaFilmes.txt
+  184  ls
+  185  echo "Batman O Cavaleiro das Trevas" >> listaFilmes.txt 
+  186  ls
+  187  cat listaFilmes.txt 
+  188  git branch daniel
+  189  git switch daniel
+  190  git add .
+  191  git commit -m "Melhor filme de herói"
+  192  git push origin daniel
+  193  git pull origin branchDaJenny
+  194  git pull origin branchDaJenny
+  195  git push origin daniel
+  196  git branch -v
+  197  Nem eu a sua
+  198  git log
+  199  cd ..
+  200  ls
+  201  mkdir aulaEmDupla
+  202  cd aulaEmDupla/
+  203  echo "Batman o Cavaleiro das Trevas" >> listaFilmes.txt
+  204  git add .
+  205  git clone https://github.com/danielcsmg/exercicioEmDupla.git
+  206  ls -la
+  207  cd exercicioEmDupla/
+  208  git branch master
+  209  git branch -c daniel
+  210  git switch daniel
+  211  mv ../listaFilmes.txt ./
+  212  ls
+  213  git add .
+  214  git commit -m "Agora tá certo"
+  215  git push origin daniel]
+  216  git push origin daniel
+  217  git checkout master 
+  218  git pull origin master
+  219  git push origin master
+  220  git pull --all
+  221  git checkout branchDaJenny 
+  222  ls
+  223  cat listaFilmes.txt 
+  224  vim listaFilmes.txt 
+  225  cat listaFilmes.txt 
+  226  vim listaFilmes.txt 
+  227  cat listaFilmes.txt 
+  228  git add .
+  229  git commit -m "Alterado"
+  230  git push origin branchDaJenny 
+  231  cd
+  232  cd Documents/
+  233  history help
+  234  history --help
+  235  mkdir exercicioTres
+  236  cd exercicioTres/
+  237  echo history >> history.txt
+  238  ls 
+  239  cat history.txt
+  240  history --help >> history.txt
+  241  cat history.txt
+  242  history >> history.txt
+  243  cat history.txt
+  244  git init
+  245  git add .
+  246  git commit -m "Mais textos"
+  247  git remote add origin https://github.com/danielcsmg/aulaTres.git
+  248  git push origin master
+  249  git branch -b nova
+  250  git checkout -b nova
+  251  history --help >> history.txt 
+  252  git add .
+  253  git commit -m "Com history --help"
+  254  git push origin nova
+  255  git checkout master 
+  256  echo "teste" >> teste.txt
+  257  git add .
+  258  git commit -m "teste"
+  259  git push origin master
+  260  git pull origin master 
+  261  ls
+  262  git log
+  263  cd ..
+  264  mkdir testandoUmaCoisa
+  265  git init testandoUmaCoisa/
+  266  git init testandoUmaCois/
+  267  ls
+  268  rm testandoUmaCois
+  269  rm testandoUmaCois/
+  270  rm -rf testandoUmaCois/
+  271  cd testandoUmaCoisa/
+  272  git --list
+  273  git config --list
+  274  ls
+  275  git status
+  276  vim testando.txt
+  277  git status
+  278  git add .
+  279  vim testando.txt 
+  280  git status
+  281  git add .
+  282  git status
+  283  git commit -m "Commitado"
+  284  git add testando.txt 
+  285  git commit -m "Commitado2"
+  286  git log --decorate
+  287  git log --Author="daniel"
+  288  git log --author="daniel"
+  289  git log --graph
+  290  vim testando.txt 
+  291  git diff
+  292  git diff --name-only
+  293  git commit -am "Edição de testando"
+  294  git show
+  295  git show a0f094c3ead4a3295a4cc87d5981f9a82bd76610
+  296  vim testando.txt 
+  297  git add .
+  298  git status
+  299  git checkout testando.txt
+  300  git status
+  301  git diff
+  302  git diff testando.txt
+  303  git estatus
+  304  git status
+  305  git reset HAED
+  306  git reset HEAD
+  307  git status
+  308  git checkout .
+  309  git status
+  310  cat testando.txt 
+  311  history >> history.txt
+  312  git add .
+  313  git commit -m "Histórico de comandos"
+  314  git diff
+  315  git status
+  316  vim history.txt 
+  317  git add .
+  318  git commit -m "teste erro"
+  319  git log
+  320  git reset --soft 643b8705b510c59df2d3b058ec43a454a9ad00ad
+  321  git reset --soft 643b8705b510c59df2d3b058ec43a454a9ad00ad
+  322  git log
+  323  vim testando.txt 
+  324  git add .
+  325  git commit -m "Ok"
+  326  git log
+  327  git reset --mixed 643b8705b510c59df2d3b058ec43a454a9ad00ad
+  328  git status
+  329  git diff
+  330  git diff testando.txt
+  331  git diff history.txt
+  332  git commit -m "ok mesmo"
+  333  git add .
+  334  git commit -m "ok mesmo"
+  335  git reset --hard 643b8705b510c59df2d3b058ec43a454a9ad00ad
+  336  git log
+  337  git status
+  338  history >> historyDois.txt 
+  339  git add .
+  340  git commit -am "mais um histórico"
+  341  git remote add origin git@github.com:danielcsmg/praticando.git
+  342  git remote -v
+  343  git push -u origin master
+  344  git push origin master
+  345  git remote -v
+  346  ssh-keygen -t ed25519 -C "daniel.csouzamg@gmail.com"
+  347  cd ~/.ssh
+  348  ls
+  349  cat id_ed25519.pub
+  350  git push origin master
+  351  cd ~/Documents/testandoUmaCoisa/
+  352  git remote -v
+  353  git push origin master
+  354  git status
+  355  vim novoArquivo.txt
+  356  git add novoArquivo.txt 
+  357  git commit -m "um"
+  358  git checkout test
+  359  git checkout -b test
+  360  vim outraCoisa.txt
+  361  git add outraCoisa.txt 
+  362  git commit -m "dois"
+  363  git checkout master
+  364  vim outroArquivo.txt
+  365  git add outroArquivo.txt 
+  366  git commit -m "três"
+  367  git log
+  368  it 
+  369  git log --
+  370  histor
+  371  history
+  372  git log --name-only
+  373  it
+  374  git log
+  375  it 
+  376  git branch -v
+  377  git log -v
+  378  git switch test 
+  379  git log
+  380  git log
+  381  git switch master 
+  382  git merge test
+  383  git log
+  384  git log --graph
+  385  vim arquivoUm.txt
+  386  git add arquivoUm.txt 
+  387  git commit -m "teste um"
+  388  git checkout -b novaBranch
+  389  vim arquivoDois,txt
+  390  ls
+  391  rm arquivoDois,txt 
+  392  ls
+  393  vim arquivoDois.txt
+  394  git add arquivoDois.txt 
+  395  git checkout master
+  396  vim arquivoTres.txt
+  397  git add arquivoTres.txt
+  398  git log --graph
+  399  git status
+  400  git commit -m "tres"
+  401  git log
+  402  git log --graph
+  403  git branch -v
+  404  git rebase novaBranch 
+  405  git log --graph
+  406  history >> historyTres.txt
